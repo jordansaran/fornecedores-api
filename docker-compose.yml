@@ -1,0 +1,12 @@
+version: '1.0'
+services:
+  web:
+    container_name: fornecedor-api
+    build: .
+    command: flask run --host=0.0.0.0
+    volumes:
+      - .:/usr/src/app/
+    ports:
+      - 5000:5000
+    env_file:
+      - ./.env
