@@ -21,6 +21,8 @@ def create_app():
         app.wsgi_app = ProxyFix(app.wsgi_app)
 
     with app.app_context():
+        from api.blueprints import api_bp_provider
+        app.register_blueprint(api_bp_provider)
         db.init_app(app)
         migrate.init_app(app, db)
 
