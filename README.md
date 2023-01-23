@@ -1,9 +1,9 @@
 # API - Fornecedores
 
 <p align="center">
-    <h2 align="center">Flask password verify</h2>
+    <h2 align="center">Fornecedores API</h2>
     <a href="https://github.com/jordansaran/fornecedores-api/actions">
-      <img alt="Tests Passing" src="https://github.com/jordansaran/fornecedores-api/workflows/Test-Coverage/badge.svg" />
+      <img alt="Tests Passing" src="https://github.com/jordansaran/fornecedores-api/workflows/Test/badge.svg" />
     </a>
     <a href="https://codecov.io/gh/jordansaran/fornecedores-api">
       <img src="https://codecov.io/gh/jordansaran/fornecedores-api/branch/main/graph/badge.svg" />
