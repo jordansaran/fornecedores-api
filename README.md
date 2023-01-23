@@ -46,7 +46,7 @@ O arquivo deve conter os seguintes variáveis de ambiente. O diretório **'<your
 SECRET_KEY=
 FLASK_DEBUG=1
 FLASK_APP=app.py
-SQLALCHEMY_DATABASE_URI=sqlite:///<your_path>/database.db
+SQLALCHEMY_DATABASE_URI=sqlite:///./database.db
 SQLALCHEMY_TRACK_MODIFICATIONS=0
 RESTX_MASK_SWAGGER=False
 RESTX_VALIDATE=True
